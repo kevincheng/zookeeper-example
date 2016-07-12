@@ -15,16 +15,12 @@ import zk.example.*;
 /**
  * ZKClientTest Test Class
  * 
- * @author Binu George
- * @since 2016
- * @version 1.0
- * http://www.java.globinch.com. All rights reserved
  */
 public class ZKClientTest {
 
 	private static ZKClientManagerImpl zkmanager = new ZKClientManagerImpl();
 	// ZNode Path
-	private String path = "/QN-GBZnode";
+	private String path = "/MyNode";
 	byte[] data = "zk.example.test".getBytes();
 
 	/**
@@ -43,7 +39,7 @@ public class ZKClientTest {
 
 	/**
 	 * Test method for
-	 * {@link com.globinch.zoo.client.ZKClientManagerImpl#create(java.lang.String, byte[])}
+	 * {@link zk.example.ZKClientManagerImpl#create(java.lang.String, byte[])}
 	 * .
 	 * 
 	 * @throws InterruptedException
@@ -62,7 +58,7 @@ public class ZKClientTest {
 
 	/**
 	 * Test method for
-	 * {@link com.globinch.zoo.client.ZKClientManagerImpl#getZNodeStats(java.lang.String)}
+	 * {@link zk.example.ZKClientManagerImpl#getZNodeStats(java.lang.String)}
 	 * .
 	 * 
 	 * @throws InterruptedException
@@ -81,7 +77,7 @@ public class ZKClientTest {
 
 	/**
 	 * Test method for
-	 * {@link com.globinch.zoo.client.ZKClientManagerImpl#getZNodeData(java.lang.String)}
+	 * {@link zk.example.ZKClientManagerImpl#getZNodeData(java.lang.String)}
 	 * .
 	 * @throws InterruptedException 
 	 * @throws KeeperException 
@@ -97,7 +93,7 @@ public class ZKClientTest {
 
 	/**
 	 * Test method for
-	 * {@link com.globinch.zoo.client.ZKClientManagerImpl#update(java.lang.String, byte[])}
+	 * {@link zk.example.ZKClientManagerImpl#update(java.lang.String, byte[])}
 	 * .
 	 * @throws InterruptedException 
 	 * @throws KeeperException 
@@ -116,7 +112,7 @@ public class ZKClientTest {
 
 	/**
 	 * Test method for
-	 * {@link com.globinch.zoo.client.ZKClientManagerImpl#getZNodeChildren(java.lang.String)}
+	 * {@link zk.example.ZKClientManagerImpl#getZNodeChildren(java.lang.String)}
 	 * .
 	 * @throws InterruptedException 
 	 * @throws KeeperException 
@@ -132,7 +128,7 @@ public class ZKClientTest {
 
 	/**
 	 * Test method for
-	 * {@link com.globinch.zoo.client.ZKClientManagerImpl#delete(java.lang.String)}
+	 * {@link zk.example.ZKClientManagerImpl#delete(java.lang.String)}
 	 * .
 	 * @throws InterruptedException 
 	 * @throws KeeperException 

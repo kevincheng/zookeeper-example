@@ -8,9 +8,6 @@ import org.apache.zookeeper.data.Stat;
 /**
  * ZKManager Interface. Defines the methods to manipulate znodes
  * 
- * @author Binu George
- * @since 2016
- * @version 1.0
  * http://www.java.globinch.com. All rights reserved
  */
 public interface ZKManager {
