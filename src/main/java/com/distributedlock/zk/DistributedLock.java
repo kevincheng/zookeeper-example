@@ -46,7 +46,7 @@ public class DistributedLock implements Watcher {
 						}
 						dc.getLock();
 					} catch (Exception e) {
-						LOG.error("【第" + threadId + "个线程】 抛出的异常：");
+						System.out.println("【第" + threadId + "个线程】 抛出的异常：");
 						e.printStackTrace();
 					}
 				}
@@ -54,7 +54,7 @@ public class DistributedLock implements Watcher {
 		}
 		try {
 			threadSemaphore.await();
-			LOG.info("所有线程运行结束!");
+			System.out.println("所有线程运行结束!");
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
