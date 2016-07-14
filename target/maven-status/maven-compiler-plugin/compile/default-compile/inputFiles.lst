@@ -1,5 +1,7 @@
 D:\code\eclipse\zk\src\main\java\zk\example\ZKClientManagerImpl.java
 D:\code\eclipse\zk\src\main\java\zk\example\ZKConnection.java
 D:\code\eclipse\zk\src\main\java\zk\example\ZKWatcher.java
+D:\code\eclipse\zk\src\main\java\com\barrier\zk\Barrier.java
 D:\code\eclipse\zk\src\main\java\com\distributedlock\zk\DistributedLock.java
 D:\code\eclipse\zk\src\main\java\zk\example\ZKManager.java
+D:\code\eclipse\zk\src\main\java\com\barrier\zk\SyncPrimitive.java
